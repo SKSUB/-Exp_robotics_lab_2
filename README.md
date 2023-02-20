@@ -102,8 +102,12 @@ In order to start the simulation:
 ```
 ./simulation.sh
 ```
-It starts all the necessry nodes to simulate the simulation of the game. 
 
+It starts all the necessry nodes to simulate the simulation of the game. Don't forget to navigate to the erl2 folder to run the simulation and also make it executable with the
+
+```
+chmod +x simulaiton.sh
+```
 Following are the pictures of the simulation
 
 ![Screenshot 2023-02-20 041910](https://user-images.githubusercontent.com/82164428/220013976-1286484a-1ed5-4cb9-975a-29722151fa0e.png)
