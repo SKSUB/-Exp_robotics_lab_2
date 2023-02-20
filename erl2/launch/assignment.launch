@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<launch>
+
+ <node name="rviz" pkg="rviz" type="rviz" args="-d $(find erl2)/config/sim.rviz" /> 
+
+<include file="$(find moveit_config)/launch/demo_gazebo.launch"/>
+
+</launch>
