@@ -97,3 +97,31 @@ After cloning usual procedures of building the package, and install the dependen
 ```
 catkin_make
 ```
+In order to start the simulation:
+```
+./simulation.sh
+```
+It starts all the necessry nodes to simulate the simulation of the game. 
+
+Following are the pictures of the simulation
+
+![Screenshot 2023-02-20 041910](https://user-images.githubusercontent.com/82164428/220013976-1286484a-1ed5-4cb9-975a-29722151fa0e.png)
+
+The picture above shows the simulation of the gazebo and the move it planner ready to control the robot.
+
+![Screenshot 2023-02-20 041621](https://user-images.githubusercontent.com/82164428/220014068-5e64cce5-932f-4ec7-80a5-77a694dbd014.png)
+
+Above pictures shows the robot in the initial position and the planner ready to dispatch.
+
+And to better understand all the nodes of the simulation, rqt graph showing all the nodes and its connections.
+
+![Screenshot 2023-02-20 041116](https://user-images.githubusercontent.com/82164428/220014302-f160ac4f-b6cb-4456-9c0b-1a9bdfbedb14.png)
+
+
+## SYSTEM WORKING AND LIMITATIONS
+
+### CONTACTS
+SATHISH KUMAR SUBRAMANI.
+ROBOTICS ENGINEER, UNIGE.
+4847560@studenti.unige.it
+
