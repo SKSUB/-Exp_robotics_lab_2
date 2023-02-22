@@ -49,25 +49,6 @@ output="screen">
     
     
     
-   <!-- simulating actions -->
-    <!-- <arg name="simulating_actions" default="false" />
-    <group if="$(eval arg('simulating_actions') == 'true')">
-    <include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
-    <arg name="pddl_action_name" value="go_to_waypoint" />
-    <arg name="action_duration" value="5" />
-    </include>
-    <include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
-    <arg name="pddl_action_name" value="movearm" />
-    </include>
-    <include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
-    <arg name="pddl_action_name" value="updateOntology" />
-    </include>
-    <include file="$(find rosplan_planning_system)/launch/includes/simulated_action.launch" >
-    <arg name="pddl_action_name" value="checkConsistency" />
-    </include>
-    </group> --> 
-
-
     <node name="rosplan_interface_go_to_waypoint" pkg="erl2" type="gotoWaypoint" respawn="false" output="screen">
     <param name="knowledge_base" value="rosplan_knowledge_base" />
     <param name="pddl_action_name" value="go_to_waypoint" />
